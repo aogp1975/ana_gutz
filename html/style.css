@@ -15,10 +15,8 @@ h1 {
 h2 {
     text-align: left;
     font-size: 30px;
-    padding: 0px;
+    padding: 1px;
     margin-left: 10px;
-    margin-bottom: 0;
-    margin-top: 0;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
