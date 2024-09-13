@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'CreamCake';
+    src: url('assets/font/Creamcake.otf') format('otf');
+}
 body {
-    background-image: url("assets/imagenes/fondo.jpg");
-    background-size: cover;
+  background-color: black;
 }
 h1 {
     text-align: center;
@@ -40,79 +43,118 @@ h2 {
     padding: 1px;
 
 }
-    
+.barnav {
+    padding: 0;
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+}    
+.barnav .nombre {
+    font-family: "CreamCake";
+    font-weight: 500;
+    font-size: 5vh;
+    color:aliceblue;
+    margin-top: -4vh;
+    margin-left: 6vh;
+
+}
+.ico img {
+width: 10vh;
+cursor: pointer;
+}
+.menuab {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 11vh;
+    left: 90%;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: left;
+}
+.menuab li a {
+    text-decoration: none;
+    color:blue;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 3vh;
+    padding: 2vh 4vh;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.menuab li a:hover {
+    background-color: blanchedalmond;
+}
+.menuab.active {
+    display: flex;
+}
 .obras {
     margin-left: 25%;
     padding: 1px 16px;
     height: 1000 px;
 }
-.barrita {
-    text-align: justify;
-    margin: 0;
-    width: 100vw;
-    height: 8vh;
-    background-color: #e9c3f9;
+.texto1 {
+    color:aqua;
     position: absolute;
-    outline-style:none;
-}
-.barrita a{
-    text-decoration-line: none;
-    color:#262626;
-    border: none;
-    background: none;
-    text-align: left;
-    outline: none;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
+    left: 70%;
+    font-family: "Kalam", cursive;
+    font-weight: 200;
     font-size: 5vh;
-    padding-left: 15vh;
-    font-style: normal;
 }
-
-.botab {
-    text-decoration-line: none;
-    color:#262626;
-    border: none;
-    background: none;
-    text-align: left;
-    outline: none;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-size: 5vh;
-    font-style: normal;
+.princip {
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-size: 10vh;
+    color:aliceblue;
+    margin-top: -20vh;
 }
-.barrita a:hover, .botab:hover {
-    color:blueviolet;
-}
-.barrita2 {
-    float:left;
-    overflow: hidden;
-}
-.active {
-    color: violet;
-}
-.menuab {
-    display: none;
+.img1 {
     position: absolute;
-    background-color:#f2d4fe;
-    min-width: 10vh;
+    width: 60vh;
+}
+.img2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 60vh;
+}
+.img3 {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    z-index: 1000;
+    width: 80vh;
+}
+.img4 {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    width: 30vh;
+}
+.img5 {
+    position: absolute;
+    top: 90%;
+    z-index: 2;
+    width: 70vh;
+}
+.img6 {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    transform: rotate(40deg);
     z-index: 1;
+    width: 90vh;
 }
-.menuab a {
-    float: none;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.menuab a:hover {
-    background-color: #ddd;
-}
-.barrita2:hover .menuab {
-    display:block;
+.img7 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 50vh;
 }
 #semblanza{
   font-family: "Roboto Condensed", sans-serif;
