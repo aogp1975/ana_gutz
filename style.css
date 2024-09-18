@@ -9,7 +9,7 @@ body {
   background-color: black;
 }
 h1 {
-    text-align: left;
+    text-align: center;
     font-family: "CreamCake";
     font-weight: 500;
     font-size: 15vh;
@@ -41,6 +41,29 @@ h1 {
     left: 10%;
     right: 10%;
 }
+.ficha3 {
+    color:blanchedalmond;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+}
+.ficha4 {
+    color:blanchedalmond;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    text-align: left;
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    right: 10%;
+}
+
 .año {
     color:blanchedalmond;
     font-family: "Roboto Condensed", sans-serif;
@@ -181,6 +204,12 @@ div.imgfashion img {
 div.imags img {
     width: 33%;
 }
+#aqui {
+    position: absolute;
+    top: 145%;
+    left: 10%;
+    width: 80%;
+}
 .img1 {
     position: absolute;
     width: 60vh;
@@ -238,6 +267,19 @@ div.imags img {
     top: 50%;
     left: 20%;
     transform: rotate(-20deg);
+    padding: 10vh;
+    text-align: center;
+}
+.postit2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    color:blanchedalmond;
+    font-weight: 200;
+    background-color:deeppink;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: rotate(-2deg);
     padding: 10vh;
     text-align: center;
 }
