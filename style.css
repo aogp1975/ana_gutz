@@ -173,7 +173,7 @@ cursor: pointer;
     text-decoration: none;
     color:black;
 }
-.texto2 {
+.texto2 p {
     color:blueviolet;
     text-decoration: none;
     white-space: pre-wrap;
@@ -282,4 +282,24 @@ div.imags img {
     transform: rotate(-2deg);
     padding: 10vh;
     text-align: center;
+}
+.manfesto {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    color:blanchedalmond;
+    font-weight: 200;
+    background-color: deeppink;
+    position: absolute;
+    width: 100vh;
+    height: 50vh;
+    top: 70%;
+    left: 30%;
+    right: 30%;
+    overflow: auto;
+    align-content: center;
+}
+.descarga {
+    position: absolute;
+    top: 125%;
+    left: 42%;
 }
